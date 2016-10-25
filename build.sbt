@@ -11,3 +11,9 @@ libraryDependencies ++= Seq(
   "org.apache.flink" %% "flink-streaming-scala" % flinkVersion,
   "org.apache.flink" %% "flink-clients" % flinkVersion
 )
+
+val scalaTestVersion = "3.0.0"
+
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
+)
